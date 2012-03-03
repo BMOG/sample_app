@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.1.3'
+gem 'bcrypt-ruby', '3.0.1'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -39,5 +40,6 @@ end
 
 group :development do
   gem 'faker', '0.3.1'
+  gem 'annotate', '~> 2.4.1.beta'  
 end
 
